@@ -1,0 +1,14 @@
+.head{
+    background-color: rgb(74, 95, 66);
+    height: 200px;
+    margin: 10px 40px 20px 50px;
+    text-align: center;
+    color: rgb(255, 254, 254);
+    
+}
+.head h1{
+    padding-top: 15px;
+}
+.head span {
+    font-weight: 700;
+}

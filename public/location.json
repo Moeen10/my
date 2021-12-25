@@ -1,0 +1,19 @@
+[  {
+    "key": 1,
+    "name": "Khilgaon",
+
+    "latitude" : 23.749423 ,
+    "longitude" :  90.383075      
+},
+
+{
+    "key": 2,
+    "name": "Gulshan",
+
+    "latitude" : 23.797911,
+    "longitude" : 90.414391 
+   
+}
+
+
+] 

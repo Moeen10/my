@@ -1,0 +1,12 @@
+.inputCard{
+    background-color:#f0f0f0;
+    padding:10px;
+    float:left
+}
+.select_btn{
+    width:100%;
+    padding:7px;
+    font-size:large;
+    outline:none;
+    border-radius:10px;
+}

@@ -1,0 +1,43 @@
+
+/* Few common Works here */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+:root{
+    --main : rgb(101, 132, 139);
+    --text : rgb(255, 115, 0);
+    --side : #74efff67;
+}
+
+#navbar{
+    background-color: var(--main);
+}
+
+
+.header-img{
+    width: 50px;
+    padding: 0 4px;
+    border-radius: 50%;
+}
+
+
+.logout-btn{
+    width: 140px;
+    background-color:red;
+    border: 0;
+}
+.logout-btn:hover{
+    background-color: black;
+    
+}
+
+.header-btn{
+    height: 40px;
+}
+
+
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+}

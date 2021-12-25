@@ -1,0 +1,62 @@
+[
+    {
+        "name": "bahon poribahan",
+        "baseFair": 10,
+        "route": "mirpur 1 - Taltola",
+        "service": "Sitting",
+        "type": "Non AC",
+        "half_pass": "No",
+        "pass_amount": 0,
+        "url": "bus_images/bahon.jpg"
+    },
+    {
+        "name": "trans silva",
+        "baseFair": 10,
+        "route": "mirpur 1 - jatrabari",
+        "service": "Sitting",
+        "type": "Non AC",
+        "half_pass": "No",
+        "pass_amount": 0,
+        "url": "bus_images/trans_silva.jpg"
+    },
+    {
+        "name": "projapati poribahan",
+        "baseFair": 10,
+        "route": "airport - mohammadpur",
+        "service": "Non Sitting",
+        "type": "Non AC",
+        "half_pass": "No",
+        "pass_amount": 0,
+        "url": "bus_images/projapoti.jpg"
+    },
+    {
+        "name": "shatabdhi poribahan",
+        "baseFair": 20,
+        "route": "uttara - dhanmandi",
+        "service": "Sitting",
+        "type": "AC",
+        "half_pass": "No",
+        "pass_amount": 0,
+        "url": "bus_images/shotabdhi.jpg"
+    },
+    {
+        "name": "BRTC bus",
+        "baseFair": 10,
+        "route": "kolabagan - uttara",
+        "service": "Sitting",
+        "type": "AC",
+        "half_pass": "Yes",
+        "pass_amount": 50,
+        "url": "bus_images/brtc.jpg"
+    },
+    {
+        "name": "New Vission",
+        "baseFair": 15,
+        "route": "Chiriyakhana - motijhil",
+        "service": "Non Sitting",
+        "type": "Non AC",
+        "half_pass": "No",
+        "pass_amount": 0,
+        "url": "bus_images/new_vission.jpg"
+    }
+]
