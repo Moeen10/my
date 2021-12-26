@@ -9,16 +9,17 @@ const Profile = () => {
     const {email} =user;
    
     useEffect(() => {
-        fetch(`http://localhost:5000/user/${email}`)
+        fetch(`http://localhost:5000/userInfo/${email}`)
             .then(res => res.json())
             .then(data => {
                 setUserInfo(data)
-                console.log(data)
+                console.log("asha amount", data)
             })
 
     }, [])
     return (
         <div>
+            kire
             <h1>Name : {user.displayName}</h1>
             <h4>Email : {email}</h4>
             <h6>{user.metadata?.lastSignInTime}</h6>
