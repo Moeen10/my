@@ -48,6 +48,7 @@ const Navigation = () => {
                           
 
                           <Nav.Link as={Link} to="/profile" className="color">Profile</Nav.Link>
+                          <Nav.Link as={Link} to="/record" className="color">Teansection</Nav.Link>
 
                                 {/* <div><Nav.Link as={Link} to="/dashboard" className="color">Dashboard</Nav.Link></div> */}
                                 <div><Nav.Link onClick={logOut} variant="light" className="color">Logout</Nav.Link> </div>

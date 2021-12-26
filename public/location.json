@@ -1,6 +1,6 @@
 [  {
     "key": 1,
-    "name": "Khilgaon",
+    "name": "Green Road",
 
     "latitude" : 23.749423 ,
     "longitude" :  90.383075      
@@ -12,6 +12,39 @@
 
     "latitude" : 23.797911,
     "longitude" : 90.414391 
+   
+}
+,
+{
+    "key": 3,
+    "name": "Malibag",
+
+    "latitude" : 23.7431022,
+    "longitude" : 90.4137153
+   
+},
+{
+    "key": 4,
+    "name": "Sahbag",
+    
+    "latitude" :  23.777176,
+    "longitude" : 90.399452
+   
+},
+{
+    "key": 5,
+    "name": "Motijhil",
+     
+    "latitude" :  23.733330,
+    "longitude" : 90.417458
+   
+},
+{
+    "key": 5,
+    "name": "Ajimpur",
+     
+    "latitude" :  23.7298,
+    "longitude" : 90.3854
    
 }
 

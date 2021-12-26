@@ -4,6 +4,7 @@ import { Button, TextField } from '@mui/material';
 import { useState, useEffect } from 'react';
 import Buses from '../Buses/Buses.js'
 import BusCard from './BusCard'
+import MapDirection from '../MapDirection/MapDirection';
 
 const Home = () => {
     const [bus_data, set_bus_data] = useState([
@@ -160,6 +161,7 @@ const Home = () => {
                                 <Button disabled={search_btn_flag} size='large' variant='contained' type='submit' fullWidth>Search bus for this route</Button>
                             </div>
                         </form>
+                        <MapDirection></MapDirection>
                     </div>
                 </div >
             </div>

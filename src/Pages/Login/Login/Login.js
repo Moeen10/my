@@ -6,8 +6,8 @@ const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const { signInWithEmailPassword, setISloading, setError, setUser, error } = useAuth()
-
+    const { signInWithEmailPassword, setISloading, setError, setUser, error,user } = useAuth()
+// console.log(user)
     const history = useHistory();
     const Location = useLocation();
     const redirect_url = Location?.state?.from || '/'

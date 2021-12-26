@@ -12,6 +12,7 @@ import AddBus from './components/Admin/AddBus/addBus';
 import MakeAdmin from './components/MakeAdmin/MakeAdmin';
 import Buses from './components/Buses/Buses';
 import Payment from './components/Payment/Payment';
+import Record from './components/Record/Record';
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
 
             <Route exact path="/home">
               <Home></Home>
+            </Route>
+            <Route exact path="/record">
+              <Record></Record>
             </Route>
           
             <Route exact path="/login">
