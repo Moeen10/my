@@ -52,7 +52,7 @@ const useFirebase = () => {
 
 //  checking user is admin or not
     useEffect(() => {
-        const url = `http://localhost:5000/user/${user.email}`
+        const url = `https://morning-chamber-73182.herokuapp.com/user/${user.email}`
         fetch(url)
             .then(res => res.json())
             .then(data => {

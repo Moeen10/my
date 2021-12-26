@@ -24,7 +24,7 @@ const place =path[0] + " - " + path[path.length - 1]
     const [money, setMoney] = useState([]);
     // const [password, setPassword] = useState('');
     useEffect(() => {
-        fetch(`http://localhost:5000/userInfo/${email}`)
+        fetch(`https://morning-chamber-73182.herokuapp.com/userInfo/${email}`)
             .then(res => res.json())
             .then(data => {
                 setMoney(data)
@@ -37,7 +37,7 @@ const place =path[0] + " - " + path[path.length - 1]
         const paymentInfo = { email: user.email, amount: payment_amount,bus: name ,place: place}
         
         // const amount = {amount:500}
-        fetch('http://localhost:5000/paymentRecord', {
+        fetch('https://morning-chamber-73182.herokuapp.com/paymentRecord', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -57,7 +57,7 @@ const place =path[0] + " - " + path[path.length - 1]
             const amount = { email: user.email, amount: total }
 
 
-            fetch('http://localhost:5000/updateAmount', {
+            fetch('https://morning-chamber-73182.herokuapp.com/updateAmount', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

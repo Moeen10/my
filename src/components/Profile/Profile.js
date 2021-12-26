@@ -9,7 +9,7 @@ const Profile = () => {
     const {email} =user;
    
     useEffect(() => {
-        fetch(`http://localhost:5000/userInfo/${email}`)
+        fetch(`https://morning-chamber-73182.herokuapp.com/userInfo/${email}`)
             .then(res => res.json())
             .then(data => {
                 setUserInfo(data)

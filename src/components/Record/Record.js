@@ -8,7 +8,7 @@ const Record = () => {
     const {email}=user;
    const [userRecord,setUserRecord]= useState([])
     useEffect(()=>{
-        fetch(`http://localhost:5000/myRecord/${email}`)
+        fetch(`https://morning-chamber-73182.herokuapp.com/myRecord/${email}`)
         .then(res => res.json())
         .then(data => {
             setUserRecord(data)

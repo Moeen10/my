@@ -71,7 +71,7 @@ const Register = () => {
     const addRegisterUserToDatabase = (name, email) => {
         const user = { displayName: name, email: email, }
         // const amount = {amount:500}
-        fetch('http://localhost:5000/addUsers', {
+        fetch('https://morning-chamber-73182.herokuapp.com/addUsers', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -83,7 +83,7 @@ const Register = () => {
                 console.log(data);
             })
 
-            fetch('http://localhost:5000/addUsers', {
+            fetch('https://morning-chamber-73182.herokuapp.com/addUsers', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
